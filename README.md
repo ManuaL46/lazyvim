@@ -14,15 +14,19 @@ To use this seamlessly, install the following tools. These are mandatory.
 
 # INSTALLATION
 ## Linux
-`mkdir -p ${HOME}/.config/nvim
+```
+mkdir -p ${HOME}/.config/nvim
 cd ${HOME}/.config/nvim
-git clone https://github.com/ManuaL46/lazyvim.git .`
+git clone https://github.com/ManuaL46/lazyvim.git .
+```
 
 ## Windows
-`mkdir %LOCALAPPDATA%\nvim
+```
+mkdir %LOCALAPPDATA%\nvim
 cd /d %LOCALAPPDATA%\nvim
-git clone https://github.com/ManuaL46/lazyvim.git .`
+git clone https://github.com/ManuaL46/lazyvim.git .
+```
 
 # LAZY EXTRAS
 By default only editors.fzf lazy extra is installed.
-This is exludes all extras installed by lazyvim itself.
+This is exluding all the extras installed by lazyvim itself.
