@@ -3,7 +3,7 @@ require("config.lazy")
 
 -- neovide configuration only needed for neovide
 if vim.g.neovide then
-  vim.o.guifont = "JetBrainsMono Nerd Font Mono:h12"
+  vim.opt.guifont = { "JetBrainsMono Nerd Font Mono", ":h12" }
 
   -- Make the window transparent and blurry
   -- vim.g.neovide_transparency = 0.8
